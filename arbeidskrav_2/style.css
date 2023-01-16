@@ -1,0 +1,37 @@
+:root {
+    --aqua: #00ffff;
+    --darkgray: #5252525a;
+    --lightgray: #868585;
+    --white: #ffffff;
+    --maxwidth: 1200px;
+    --rootsize: 18px; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ressursarkiv {
+    color: var(--lightgray);
+    display: flex;
+    text-transform: uppercase;
+    padding-left: 1.5rem;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: var(--maxwidth);
+    justify-content: center;
+}
+
+header {
+    border: 1px solid #868585;
+    padding: 1rem;
+    margin: 3.5rem 0;
+}
+
+nav a:hover { 
+    color: var(--white)
+}
+
