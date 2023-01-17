@@ -1,7 +1,7 @@
 :root {
     --aqua: #00ffff;
     --darkgray: #5252525a;
-    --lightgray: #868585;
+    --lightgray: #c4c4c4;
     --white: #ffffff;
     --maxwidth: 1200px;
     --rootsize: 18px; 
@@ -12,7 +12,7 @@ body {
 }
 
 .ressursarkiv {
-    color: var(--lightgray);
+    color: var(--darkgray);
     display: flex;
     text-transform: uppercase;
     padding-left: 1.5rem;
@@ -26,12 +26,26 @@ body {
 }
 
 header {
-    border: 1px solid #868585;
+    border: 1px solid var(--lightgray);
     padding: 1rem;
     margin: 3.5rem 0;
 }
 
-nav a:hover { 
-    color: var(--white)
+#meny ul {
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    justify-content: space-around;
+    padding-left: 0;
+    border: 1px solid var(--lightgray);
+    background-color: var(--lightgray);
 }
 
+#meny ul a:hover { 
+    background-color: var(--aqua);
+}
+
+.container #meny ul a:hover{
+    background-color: var(--aqua);
+    display: inline-block;
+}
