@@ -102,11 +102,10 @@ let menyHTML = ''
 })*/
 
 function ressursmeny(item){
-    let ivar= document.createElement('p')
-    ivar.innerHTML = item.category
-    document.querySelector('#meny ul').appendChild(ivar)
+    let menyPunkter = document.createElement('p')
+    menyPunkter.innerHTML = item.category
+    document.querySelector('#meny ul').appendChild(menyPunkter)
 }
-
 
 
 resources.map(ressursmeny)
