@@ -102,9 +102,9 @@ let menyHTML = ''
 })*/
 
 function ressursmeny(item){
-    let menyPunkter = document.createElement('p')
-    menyPunkter.innerHTML = item.category
-    document.querySelector('#meny ul').appendChild(menyPunkter)
+    let menyOverskrift = document.createElement('p')
+    menyOverskrift.innerHTML = item.category
+    document.querySelector('#meny ul').appendChild(menyOverskrift)
 }
 
 
