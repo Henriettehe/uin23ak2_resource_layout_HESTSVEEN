@@ -1,5 +1,5 @@
 :root {
-    --aqua: #00ffff;
+    --aqua: #0be2e2;
     --darkgray: #3c3b3bbf;
     --lightgray: #c2bebe;
     --lightergray: #e1dede;
@@ -23,12 +23,29 @@ body {
     margin-bottom: 2rem;
 }
 
-section {
-    border: var(--lightgray);
+.infoTab {
+    border: 1px solid var(--lightgray);
+    box-sizing: border-box;
+    border-top: 0;
+    padding-left: 2.5rem;
 }
 
-section a {
+.infoTab ul {
+    padding-left: 1rem;
+}
+
+.infoTab a {
     text-decoration: none;
+    color: var(--aqua);
+}
+
+.infoTab a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 1.5rem;
 }
 
 .container {
@@ -71,6 +88,7 @@ header {
     border-left: 1px solid var(--lightgray);
     border-right: 1px solid var(--lightgray);
     box-sizing: border-box;
+    margin: 0;
 }
 
 .container #meny ul a:hover{

@@ -95,17 +95,9 @@ const resources = [
     },
 ]
 
-let menyHTML = ''
+let menyHTML = ""
 
-/*resources.map(category => {menyHTML += `<p>${category} </p>`
-    category.sources.map()
-})*/
-
-function ressursmeny(item){
-    let menyOverskrift = document.createElement('p')
-    menyOverskrift.innerHTML = item.category
-    document.querySelector('#meny ul').appendChild(menyOverskrift)
-}
+resources.map(item => item.category) 
 
 
-resources.map(ressursmeny)
+console.log(resources)
